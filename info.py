@@ -108,8 +108,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', False))
-VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://vnshortener.com/')
+VERIFY = bool(environ.get('VERIFY', True))
+VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'vnshortener.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'AzPyum7Cggzn6dCdRAV2QcOcRgq7G0rwUWJ3bhCf')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/HDMoviesChatRoom')
 
